@@ -1,0 +1,63 @@
+🔹 Introducción a Node.js
+- Introducción a Node.js
+- Conceptos básicos
+- Aplicaciones de Node.js
+- Descargar e instalar Node.js
+- Confirmar versión de Node.js
+- El REPL de Node.js
+
+🔹 Módulos de Node.js y primer programa
+- Primer programa con Node.js
+- Módulos en Node.js
+- Crear un módulo
+- Exportar e importar
+- Exportar varios elementos
+- Sintaxis de desestructuración y require.
+- Módulos principales de Node.js
+- El módulo console
+- El módulo process
+- El módulo os
+- El módulo Timers
+- El módulo fs
+
+🔹 npm y el formato JSON
+- Introducción a npm
+- Crear paquete con npm
+- Introducción al formato JSON
+- Instalar y desinstalar paquetes con npm
+- package-lock.json
+
+🔹 Eventos y JavaScipt asíncrono
+- Eventos en Node.js
+- Módulo events
+- Promesas en JavaScript
+- Práctica de Promesas
+- .catch()
+- Encadenar promesas y async await
+
+🔹 HTTP y rutas en Node.js
+- Modelo cliente-servidor
+- Solicitudes HTTP
+- Métodos HTTP
+- Respuestas HTTP
+- Códigos de estado HTTP
+- Tu primer servidor con Node.js
+- req y res
+- Estructura de una URL
+- El módulo url
+- Routing en Node.js
+
+🔹 Nodemon
+- Nodemon
+
+🔹 Express
+- Introducción a Express
+- Express - Conceptos importantes
+- Crear un proyecto con Express
+- Primeros pasos con Express
+- Agregar rutas en Express
+- Parámetros de Ruta
+- Parámetros query
+- Routers en Express
+- Routers en distintos archivos
+- POST, PUT, PATCH y DELETE

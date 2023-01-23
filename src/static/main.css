@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    max-width: 300px;
+    box-shadow: 0 0 10px #0005;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form div {
+    width: 100%;
+}
+
+.form label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.form input:not([type="submit"]) {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.form input[type="submit"] {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.btn {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.userList_body {
+    padding: 30px;
+}
+
+.title_userList {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.table {
+    margin: 50px auto;
+    max-width: 500px;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.table__item {
+    width: 100%;
+    display: flex;
+    background-color: #ccc;
+}
+
+.table__item-data {
+    padding: 10px;
+    width: 200px;
+    border-left: 1px solid #555;
+}
+
+.table__item-data:last-child {
+    width: max-content;
+    cursor: pointer;
+    background-color: #5e82f8;
+    color: #fff;
+}
+
+.table__item-data:first-child {
+    width: max-content;
+    border-left: none;
+} 
+
+.table__item-data:last-child:hover {
+    background-color: #fa8b87;
+}
+
+.table__item:hover  {
+    background-color: #ddd;
+}
